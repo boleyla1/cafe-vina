@@ -4,6 +4,12 @@
     margin: 0;
     direction: rtl;
 }
+.main
+{
+    height: 100%;
+    width: 100%;
+}
+
 /*------fonts------*/
 @font-face {
     font-family: vazir;
@@ -68,14 +74,14 @@
     top: 29px;
     right: 33px;
 }
-.item1
+.items
 {
     height: 147px;
     width: 146px;
     margin: auto;
     border-radius: 68px;
 }
-.item1 img
+.items img
 {
     width: 103px;
     height: 92px;
@@ -119,19 +125,19 @@
 .bar-coffe
 {
     width: 100%;
-    height: 517px;
+    height: 781px;
 }
-.bar-cafe-div
-{
+.bar-cafe-div {
     width: 75%;
-    height: 71%;
+    height: 93%;
     margin: auto;
     position: relative;
-    top: 0;
+    top: 1px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: #302727;
+    background: aliceblue;
 }
+
 #span-bar
 {
     width: 75%;
@@ -141,7 +147,6 @@
 #span-bar h2
 {
     text-align: center;
-    background: antiquewhite;
     width: 100%;
     height: 34px;
     border-top-right-radius:20px ;
@@ -149,21 +154,108 @@
 }
 .bar-cafe-right
 {
-    width: 50%;
+    width: 43%;
     height: 100%;
     float: right;
+    position: relative;
+    top: 23px;
+    right: 35px;
 }
 .bar-cafe-left
 {
-    width: 50%;
+    width: 43%;
     height: 100%;
     float: left;
+    position: absolute;
+    top: 23px;
+    left: 54px;
 }
-.menu-bar
+/*-----------items css--------------*/
+.item1
+{
+    width: 100%;
+    height: 177px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 96px;
+}
+.item2
 {
     width: 100%;
     height: 182px;
-    border: 1px gray solid;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 48px;
+    border-radius: 96px;
+}
+.item3
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 96px;
+}
+.item4
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 48px;
+    border-radius: 96px;
+}
+.item5
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 96px;
+    position: relative;
+    top: 111px;
+}
+.item6
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 111px;
+    border-radius: 96px;
+}
+.item7
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 111px;
+    border-radius: 96px;
+}
+.item8
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 111px;
+    border-radius: 96px;
+}
+.item9
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 166px;
+    border-radius: 96px;
+}
+.item10
+{
+    width: 100%;
+    height: 182px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 166px;
+    border-radius: 96px;
 }
 /*----------class menu---------*/
 .img-menu
@@ -173,16 +265,24 @@
     float: left;
     position: relative;
     top: 13px;
+    left: 58px;
 }
 .img-menu img
 {
     width: 100%;
     height: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    border-radius: 44px;
 }
 .name-menu
 {
-    width: 71%;
+    width: 53%;
     height: 69%;
+    position: relative;
+    top: 23px;
+    right: 33px;
 }
 .name-menu h3
 {
@@ -193,7 +293,7 @@
     position: relative;
     right: 116px;
     font-size: 28px;
-    color: aliceblue;
+    color: black;
 }
 .name-menu h5
 {
@@ -205,9 +305,112 @@
     right: 11px;
     font-family: 'vazir', serif;
     color: aliceblue;
+    color: gray;
 }
 
 
-/**/
+
+/*-------tea-cafe css---------*/
+.tea-cafe
+{
+    width: 100%;
+    height: 1033px;
+}
+.tea-cafe-div
+{
+    width: 75%;
+    height: 93%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
+/*-------ice coffe css*/
+.ice-coffe
+{
+    width: 100%;
+    height: 860px;
+}
+.ice-coffe-div
+{
+    width: 75%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
+/*---------coffe dami--------*/
+.coffe-dami
+{
+    width: 100%;
+    height: 860px;
+}
+.coffe-dami-div
+{
+    width: 75%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
+/*-------hot drink-----------*/
+.hot-drink
+{
+    width: 100%;
+    height: 566px;
+}
+.hot-drink-div
+{
+    width: 75%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
+/*--------moctil----------*/
+.moctil-drink
+{
+    width: 100%;
+    height: 566px;
+}
+.moctil-drink-div
+{
+    width: 75%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
+/*---------shake css------------*/
+.shake
+{
+    width: 100%;
+    height: 860px;
+}
+.shake-div
+{
+    width: 75%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    top: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: aliceblue;
+}
 
 
