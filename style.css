@@ -19,11 +19,19 @@
 }
 .full-header
 {
-    width: 72%;
+    width: 11%;
     height: 100%;
     margin: auto;
+    background: black;
 }
-/*--------css menu-----------*/
+.full-header img
+{
+    height: 201px;
+    width: 190px;
+    position: absolute;
+    top: -23px;
+}
+/*.------css menu-----------*!*!*/
 .section-menu
 {
     width: 100%;
@@ -108,10 +116,35 @@
     text-align: center;
 }
 /*-------------css coffee bar ------------*!*/
-.coffee-bar
+.bar-coffe
 {
     width: 100%;
-    height: 300px;
+    height: 517px;
+}
+.bar-cafe-div
+{
+    width: 75%;
+    height: 93%;
+    background: red;
+    margin: auto;
+    position: relative;
+    top: 0;
+}
+#span-bar
+{
+    width: 75%;
+    height: 33px;
+    background: aqua;
+    margin: auto;
+}
+#span-bar h2
+{
+    text-align: center;
+    background: antiquewhite;
+    width: 100%;IMG_3386
+    height: 34px;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px;
 }
 
 /**/
