@@ -32,10 +32,10 @@
 }
 .full-header img
 {
-    height: 201px;
-    width: 190px;
+    height: 241px;
+    width: 241px;
     position: absolute;
-    top: -23px;
+    top: -40px;
 }
 /*.------css menu-----------*!*!*/
 .section-menu
@@ -108,309 +108,140 @@
 /*--------text cafe----------*/
 .text-cafe
 {
-    width: 74%;
-    height: 113px;
-    margin: auto;
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
-    top: -49px;
-    position: relative;
+    text-align: center;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .text-cafe h1
 {
-    padding-top: 33px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: vazir, serif;
+}
+/*------  css for all p in the up section*/
+.p-bar{
+    background: blueviolet;
+    width: 67%;
+    height: 41px;
     text-align: center;
-}
-/*-------------css coffee bar ------------*!*/
-.bar-coffe
-{
-    width: 100%;
-    height: 781px;
-}
-.bar-cafe-div {
-    width: 75%;
-    height: 93%;
     margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
+    margin-top: 44px;
+    margin-bottom: 35px;
+}
+.p-bar p
+{
+    font-size: 20px;
+    font-family: 'vazir', serif;
 }
 
-#span-bar
+/*------css for coffe-bar---------*/
+.coffe-bar
 {
-    width: 75%;
-    height: 33px;
+    height: 692px;
+    width: 100%;
+}
+.menu {
+    height: 87%;
     margin: auto;
+    width: 67%;
 }
-#span-bar h2
+.p-menu
 {
+    width: 44%;
+    height: 57px;
     text-align: center;
-    width: 100%;
-    height: 34px;
-    border-top-right-radius:20px ;
-    border-top-left-radius: 20px;
+    display: inline-block;
 }
-.bar-cafe-right
+.p-about
 {
-    width: 43%;
-    height: 100%;
-    float: right;
-    position: relative;
-    top: 23px;
-    right: 35px;
+    height: 57px;
+    font-size: 17px;
+    font-family: 'vazir', serif;
 }
-.bar-cafe-left
+.p-name
 {
-    width: 43%;
-    height: 100%;
-    float: left;
-    position: absolute;
-    top: 23px;
-    left: 54px;
+    font-family: 'vazir', serif;
+    font-size: 31px;
+    height: 86px;
+
 }
-/*-----------items css--------------*/
-.item1
+.table-menu
 {
     width: 100%;
-    height: 177px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 96px;
+    height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
 }
-.item2
+.menu-right
 {
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 48px;
-    border-radius: 96px;
+    width: 40%;
+    height: 172px;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+    margin-top: 14px;
 }
-.item3
+.menu-left
 {
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 96px;
+    width: 40%;
+    height: 172px;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+    margin-top: 14px;
 }
-.item4
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 48px;
-    border-radius: 96px;
-}
-.item5
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 96px;
-    position: relative;
-    top: 111px;
-}
-.item6
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 111px;
-    border-radius: 96px;
-}
-.item7
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 111px;
-    border-radius: 96px;
-}
-.item8
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 111px;
-    border-radius: 96px;
-}
-.item9
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 166px;
-    border-radius: 96px;
-}
-.item10
-{
-    width: 100%;
-    height: 182px;
-    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 166px;
-    border-radius: 96px;
-}
-/*----------class menu---------*/
 .img-menu
 {
-    width: 29%;
-    height: 87%;
+    height: 100%;
+    width: 165px;
     float: left;
     position: relative;
-    top: 13px;
-    left: 58px;
 }
 .img-menu img
 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
-    right: 0;
-    border-radius: 44px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    border-radius: 16px;
 }
-.name-menu
+.p-menu
 {
-    width: 53%;
-    height: 69%;
-    position: relative;
-    top: 23px;
-    right: 33px;
-}
-.name-menu h3
-{
-    font-family: 'vazir', serif;
-    width: 50%;
-    height: 41%;
-    text-align: center;
-    position: relative;
-    right: 116px;
-    font-size: 28px;
-    color: black;
-}
-.name-menu h5
-{
-    position: relative;
-    top: 31px;
-    width: 83%;
-    height: 48px;
-    font-size: 15px;
-    right: 11px;
-    font-family: 'vazir', serif;
-    color: aliceblue;
-    color: gray;
-}
 
+}
+/*---------- media responsiv ------------*/
+@media screen and (max-width: 1693px) {
+    .menu-icon
+    {
+        position: relative;
+        right: 62px;
+        margin: 0 0 0 0 ;
+        width: 93%;
+        height: 104%;
+        top: 29px;
+    }
+    .menu-icon ul
+    {
+        right: -68px;
+    }
 
-
-/*-------tea-cafe css---------*/
-.tea-cafe
-{
-    width: 100%;
-    height: 1033px;
 }
-.tea-cafe-div
-{
-    width: 75%;
-    height: 93%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
+@media screen and (max-width:1455px) {
+    .section-menu
+    {
+        height: 407px;
+    }
+    .menu-icon
+    {
+        width: 93%;
+        height: 100%;
+        top: 2px;
+    }
+    .menu-icon ul
+    {
+        height: 100%;
+        right: 0;
+        top: 2px;
+    }
+    
 }
-/*-------ice coffe css*/
-.ice-coffe
-{
-    width: 100%;
-    height: 860px;
-}
-.ice-coffe-div
-{
-    width: 75%;
-    height: 86%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
-}
-/*---------coffe dami--------*/
-.coffe-dami
-{
-    width: 100%;
-    height: 860px;
-}
-.coffe-dami-div
-{
-    width: 75%;
-    height: 86%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
-}
-/*-------hot drink-----------*/
-.hot-drink
-{
-    width: 100%;
-    height: 566px;
-}
-.hot-drink-div
-{
-    width: 75%;
-    height: 86%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
-}
-/*--------moctil----------*/
-.moctil-drink
-{
-    width: 100%;
-    height: 566px;
-}
-.moctil-drink-div
-{
-    width: 75%;
-    height: 86%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
-}
-/*---------shake css------------*/
-.shake
-{
-    width: 100%;
-    height: 860px;
-}
-.shake-div
-{
-    width: 75%;
-    height: 86%;
-    margin: auto;
-    position: relative;
-    top: 1px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background: aliceblue;
-}
-
-
