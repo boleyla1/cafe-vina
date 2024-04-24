@@ -6,8 +6,7 @@
 }
 .main
 {
-    height: 100%;
-    width: 100%;
+    /*display: none;*/
 }
 
 /*------fonts------*/
@@ -244,5 +243,147 @@
         top: 2px;
     }
     
+}
+@media screen and (max-width: 959px) {
+    .full-header
+    {
+        right: -66px;
+        position: relative;
+    }
+    .coffe-bar
+    {
+        height: 1276px;
+        width: 100%;
+        background: blueviolet;
+    }
+    .menu
+    {
+        height: 91%;
+        margin: auto;
+        width: 67%;
+        background: bisque;
+    }
+    .table-menu
+    {
+        width: 100%;
+        height: 376px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        background: aqua;
+    }
+    .menu-left
+    {
+        display: block;
+        width: 100%;
+        height: 174px;
+        border-radius: 3px;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+        margin-top: 14px;
+    }
+    .menu-right
+    {right: 49px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 871px) {
+    .menu-icon
+    {
+        right: 42px;
+    }
+    
+}
+@media screen and (max-width: 823px) {
+    .menu-icon{
+        right: 20px;
+    }
+    .menu-icon ul li
+    {
+        width: 137px;
+        height: 151px;
+        margin-top: 15px;
+    }
+    .items
+    {
+        height: 85px;
+        width: 75px;
+    }
+    .items img
+    {
+        width: 85px;
+        height: 75px;
+        position: absolute;
+        right: 21px;
+        top: 9px;
+    }
+    .div-item p {
+        color: black;
+        position: absolute;
+        right: 16px;
+        top: 15px;
+        font-family: vazir, serif;
+    }
+}
+@media screen and (max-width: 671px) {
+    .section-menu
+    {
+        height: 419px;
+        background: antiquewhite;
+    }
+    .menu-icon ul li{
+        margin-right: 17px;
+    }
+    .menu-icon ul
+    {
+        width: 102%;
+    }
+}
+@media screen and (max-width: 662px){
+    .menu-icon ul li
+    {
+        width: 131px;
+        height: 130px;
+    }
+    .full-header
+    {
+        width: 35%;
+        margin: 0 0;
+        right: 0;
+        position: relative;
+    }
+    .header
+    {
+        display: flex;
+        justify-content: center;
+
+    }
+    .menu-icon ul li
+    {
+        width: 117px;
+        height: 135px;
+    }
+    .menu
+    {
+        width: 100%;
+        margin: 0 0;
+    }
+    .menu-left
+    {
+        width: 83%;
+        position: relative;
+        right: -3px;
+        border-radius: 53px;
+    }
+    .menu-right
+    {
+        width: 83%;
+        position: relative;
+        right: -3px;
+        border-radius: 53px;
+    }
+}
+@media screen and (max-width: 643px) {
+
+
 }
 /*feggre*/
