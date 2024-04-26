@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: vazir-m;
-    src: url("fonts/Vazir-Medium.eot" ) format('eot');
+    /*src: url("fonts/Vazir-Medium.woff2" ) format('woff');*/
 }
 @font-face {
     font-family: vazir;
-    src: url("fonts/Vazir.eot") format('eot');
+    src: url("fonts/Vazir-Medium.woff2") format('woff');
 }
 .section-logo
 {
