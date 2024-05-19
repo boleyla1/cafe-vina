@@ -101,15 +101,24 @@ body
 }
 .section-menu
 {
-    width: 61px;
-    height: 516px;
+    width: 69px;
+    height: 100%;
     display: inline-block;
     position: fixed;
+    background: #202020;
 }
 .coffe-bar
 {
     width: 86%;
-    height: 1219px;
+    height: 100%;
+    float: right;
+    position: relative;
+    right: 0;
+}
+.dami
+{
+    width: 86%;
+    height: 100%;
     float: right;
     position: relative;
     right: 0;
@@ -213,6 +222,8 @@ ul
     height: 50%;
     background: #202020;
     text-align: center;
+    position: relative;
+    top: 9px;
 }
 .li-bottom h6
 {
@@ -233,7 +244,7 @@ ul
     height: 50px;
     background: #202020;
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:500px) {
     .div-1 {
         background: #2aafaf;
         justify-items: center;
@@ -263,7 +274,7 @@ ul
         text-align: center;
     }
     .img img {
-        width: 67%;
+        width: 79%;
         height: 100%;
         background-color: #202020;
     }
@@ -314,6 +325,17 @@ ul
     {
         padding-top: 9px;
     }
-
-
+    .section-menu
+    {
+        width: 14%;
+        height: 100%;
+        display: inline-block;
+        position: fixed;
+        background: #202020;
+        overflow: scroll;
+    }
+    .li
+    {
+        width: 100%;
+    }
 }
