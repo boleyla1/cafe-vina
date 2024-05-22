@@ -172,7 +172,7 @@ body
 }
 .bar
 {
-    height: 35px;
+    height: 52px;
     width: 100%;
     position: relative;
     top: 9px;
@@ -180,11 +180,12 @@ body
 }
 .bar h3
 {
-    background: white;
-    color: black;
+    background: #202020;
+    color: #FFA500;
     font-family: vazir, serif;
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 30px;
 }
 .li
 {
