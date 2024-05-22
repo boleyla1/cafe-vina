@@ -175,24 +175,28 @@ body
     height: 52px;
     width: 100%;
     position: relative;
-    top: 9px;
+    top: 12px;
     text-align: center;
+    background: #202020;
+    margin-bottom: 23px;
+    border-radius: 23px;
 }
 .bar h3
 {
-    background: #202020;
     color: #FFA500;
     font-family: vazir, serif;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    font-size: 30px;
+    font-size: 22px;
+    position: relative;
+    top: 11px;
 }
 .li
 {
     width: 68px;
     height: 100px;
     background: #202020;
-    border-bottom: 1px gray solid;
+    border-radius: 9px;
     padding-bottom: 12px;
 }
 
@@ -229,6 +233,8 @@ ul
     width: 100%;
     height: 100%;
     background-color: #202020;
+    border-radius: 17px;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 .name-about
 {
@@ -236,6 +242,7 @@ ul
     height: 100%;
     background-color: #202020;
     padding-right: 10px;
+    padding-top: 12px;
 }
 .name-content
 {
@@ -289,7 +296,23 @@ ul
     width: 50px;
     height: 50px;
 }
-
+.back
+{
+    text-align: center;
+    background: rgb(255, 165, 0);
+    width: 93%;
+    height: 22px;
+    border-radius: 17px;
+    position: absolute;
+    top: 9px;
+}
+.back p
+{
+    font-size: 9px;
+    position: relative;
+    top: 5px;
+    color: white;
+}
 @media screen and (max-width:500px) {
     .div-1 {
         background: #2aafaf;

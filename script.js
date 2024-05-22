@@ -259,6 +259,6 @@ $('#li7').click(function(){
 })
 $('#li8').click(function(){
     $('html,body').animate({
-        'scrollTop' : offsetmokt
+        'scrollTop' : offsetmokt1
     },500,'linear')
 })
