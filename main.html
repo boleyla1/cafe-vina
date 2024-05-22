@@ -6,37 +6,38 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
 <section  class="section-menu">
     <ul>
-        <a href="#coffe-bar"><li class="li">
+        <a id="coffe-bar-a"><li class="li" id="li1">
             <div class="li-top">
-                <img src="menu/coffe-bar.png">
+                <img src="menu/coffe-bar.png" alt="">
             </div>
-            <div class="li-bottom">
+            <div id="coffe-bar1" class="li-bottom">
                 <h6>کافی بار</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li2">
             <div class="li-top">
-                <img src="menu/dami.png">
+                <img src="menu/dami.png" alt="">
             </div>
             <div class="li-bottom">
                 <h6>قهوه های دمی</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li3">
             <div class="li-top">
-                <img src="menu/ice-coffee.png">
+                <img src="menu/ice-coffee.png" alt="">
             </div>
             <div class="li-bottom">
                 <h6>ایس کافی</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li4">
             <div class="li-top">
                 <img src="menu/dami.png">
             </div>
@@ -44,7 +45,7 @@
                 <h6>چای و دمنوش</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li5">
             <div class="li-top">
                 <img src="menu/dami.png">
             </div>
@@ -52,7 +53,7 @@
                 <h6>شیک</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li6">
             <div class="li-top">
                 <img src="menu/dami.png">
             </div>
@@ -60,7 +61,7 @@
                 <h6>نوشیدنی گرم</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li7">
             <div class="li-top">
                 <img src="menu/dami.png">
             </div>
@@ -68,7 +69,7 @@
                 <h6>اسموتی</h6>
             </div>
         </li></a>
-        <a><li class="li">
+        <a><li class="li" id="li8">
             <div class="li-top">
                 <img src="menu/dami.png">
             </div>
@@ -80,7 +81,7 @@
 </section>
 <section class="coffe-bar">
     <div class="bar" id="coffe-bar"><h3>کافی بار</h3></div>
-    <div class="div-1">
+    <div class="div-1" id="bar">
         <div class="contect">
             <div class="img"><img src="icons/honey.jpg"></div>
             <div class="name-about">
@@ -200,7 +201,7 @@
 </section>
 <section class="dami">
     <div class="bar" id="dami"><h3>قهوه ها دمی</h3></div>
-    <div class="div-1">
+    <div class="div-1" id="dami1">
         <div class="contect">
             <div class="img"><img src="dami-img/v60.jpg"></div>
             <div class="name-about">
@@ -279,7 +280,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="ice-coffee" >
     <div class="bar" id="ice-coffe"><h3>ایس کافی</h3></div>
     <div class="div-1">
         <div class="contect">
@@ -373,7 +374,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="damnosh">
     <div class="bar" id="chai-damnosh"><h3>چای و دمنوش</h3></div>
     <div class="div-1">
         <div class="contect">
@@ -480,7 +481,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="shake">
     <div class="bar" id="shake"><h3>شیک </h3></div>
     <div class="div-1">
         <div class="contect">
@@ -574,7 +575,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="hot">
     <div class="bar" id="noshidani-garm"><h3>نوشیدنی گرم</h3></div>
     <div class="div-1">
         <div class="contect">
@@ -681,7 +682,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="smoti">
     <div class="bar" id="smoti"><h3>اسموتی</h3></div>
     <div class="div-1">
         <div class="contect">
@@ -736,7 +737,7 @@
         </div>
     </div>
 </section>
-<section class="dami">
+<section class="moktil">
     <div class="bar" id="moktil"><h3>ماکتیل</h3></div>
     <div class="div-1">
         <div class="contect">
@@ -830,5 +831,7 @@
         </div>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
