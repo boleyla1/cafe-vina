@@ -7,6 +7,8 @@ let offsetshake = $('.shake').offset().top
 let offsetihot = $('.hot').offset().top
 let offsetsmoti = $('.smoti').offset().top
 let offsetmokt = $('.moktil').offset().top
+let offsetvafel =$('.vafel').offset().top
+
 
 $(document).scroll(function (){
     let st = $(this).scrollTop()
@@ -35,6 +37,9 @@ $(document).scroll(function (){
         $('#li8').css({
             'background' : '#202020'
         })
+        $('#li9').css({
+            'background' : '#202020'
+        })
     }else if(st >= offsetdami && st < offsetice){
         $('#li1').css({
             'background' : '#202020'
@@ -58,6 +63,9 @@ $(document).scroll(function (){
             'background' : '#202020'
         })
         $('#li8').css({
+            'background' : '#202020'
+        })
+        $('#li9').css({
             'background' : '#202020'
         })
     }else if(st >= offsetice && st < offsetchai){
@@ -85,6 +93,9 @@ $(document).scroll(function (){
         $('#li8').css({
             'background' : '#202020'
         })
+        $('#li9').css({
+            'background' : '#202020'
+        })
     }else if(st >= offsetchai && st < offsetshake) {
         $('#li1').css({
             'background' : '#202020'
@@ -108,6 +119,9 @@ $(document).scroll(function (){
             'background' : '#202020'
         })
         $('#li8').css({
+            'background' : '#202020'
+        })
+        $('#li9').css({
             'background' : '#202020'
         })
     }else if(st >= offsetshake && st < offsetihot){
@@ -135,6 +149,9 @@ $(document).scroll(function (){
         $('#li8').css({
             'background' : '#202020'
         })
+        $('#li9').css({
+            'background' : '#202020'
+        })
     }else if(st >= offsetihot && st < offsetsmoti){
         $('#li1').css({
             'background' : '#202020'
@@ -158,6 +175,9 @@ $(document).scroll(function (){
             'background' : '#202020'
         })
         $('#li8').css({
+            'background' : '#202020'
+        })
+        $('#li9').css({
             'background' : '#202020'
         })
     }else if(st >= offsetsmoti && st < offsetmokt){
@@ -185,7 +205,10 @@ $(document).scroll(function (){
         $('#li8').css({
             'background' : '#202020'
         })
-    }else if(st >= offsetmokt){
+        $('#li9').css({
+            'background' : '#202020'
+        })
+    }else if(st >= offsetmokt && st < offsetvafel){
         $('#li1').css({
             'background' : '#202020'
         })
@@ -210,6 +233,37 @@ $(document).scroll(function (){
         $('#li8').css({
             'background' : '#FFA500'
         })
+        $('#li9').css({
+            'background' : '#202020'
+        })
+    }else if(st > offsetvafel){
+        $('#li1').css({
+            'background' : '#202020'
+        })
+        $('#li2').css({
+            'background' : '#202020'
+        })
+        $('#li3').css({
+            'background' : '#202020'
+        })
+        $('#li4').css({
+            'background' : '#202020'
+        })
+        $('#li5').css({
+            'background' : '#202020'
+        })
+        $('#li6').css({
+            'background' : '#202020'
+        })
+        $('#li7').css({
+            'background' : '#202020'
+        })
+        $('#li8').css({
+            'background' : '#202020'
+        })
+        $('#li9').css({
+            'background' : '#FFA500'
+        })
     }
 })
 let offsetcoffeebar1 = $('#coffe-bar').offset().top
@@ -220,6 +274,8 @@ let offsetshake1 = $('#shake').offset().top
 let offsetihot1 = $('#noshidani-garm').offset().top
 let offsetsmoti1 = $('#smoti').offset().top
 let offsetmokt1 = $('#moktil').offset().top
+let offsetvafel1 = $('#vafel').offset().top
+
 
 $('#li1').click(function(){
     $('html,body').animate({
@@ -262,3 +318,9 @@ $('#li8').click(function(){
         'scrollTop' : offsetmokt1
     },500,'linear')
 })
+$('#li9').click(function(){
+    $('html,body').animate({
+        'scrollTop' : offsetvafel1
+    },500,'linear')
+})
+
